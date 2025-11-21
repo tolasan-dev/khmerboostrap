@@ -1,4 +1,4 @@
-# Khmer Master UI បណ្ណាល័យ UI ខ្មែរទំនើប 2025
+# KhmerBoostrap is  បណ្ណាល័យ UI ខ្មែរ Modern components 2025
 
 ![Khmer Master UI](https://raw.githubusercontent.com/yourname/khmer-master-ui/main/assets/hero-banner.png)
 > **ស្អាតដូច Apple • លឿនដូច Tailwind • ស្រឡាញ់ខ្មែរដូចយើង**
