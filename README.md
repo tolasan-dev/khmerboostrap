@@ -30,11 +30,10 @@
 
 ```
 ###វិធី ២: npm / yarn / pnpm
-
+```
 npm install khmer-master-ui
-# ឬ
 yarn add khmer-master-ui
-# ឬ
+
 pnpm add khmer-master-ui
 
 
