@@ -1,0 +1,64 @@
+:root {
+  --km-primary: #f5e6be;
+  --km-primary-dark: #5c4d20;
+}
+body {
+  font-family: "Noto Sans Khmer", "Inter", sans-serif;
+  background: linear-gradient(90deg, #d0ceeb 20%, #37cfda 100%);
+  min-height: 100vh;
+}
+.hero {
+  /* background: url("https://images.unsplash.com/photo-1558655146-9f40138ed1cb?w=1920&q=80")
+          center/cover no-repeat; */
+
+  color: white;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+.navbar-brand {
+  font-weight: 800;
+  font-size: 1.8rem;
+  background: linear-gradient(90deg, #14a8ab, #173e68);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.nav-item .nav-link {
+}
+h1 {
+  background: linear-gradient(90deg, #14a8ab, #173e68);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.btn-primary {
+  /* background: var(--km-primary); */
+  border: none;
+  background: linear-gradient(90deg, #14a8ab, #173e68);
+}
+.btn-primary:hover {
+  background: #14a8ab;
+}
+.btn-outline-light {
+  border: 1px solid #14a8ab;
+}
+.btn-outline-light:hover {
+  background: linear-gradient(90deg, #14a8ab, #173e68);
+}
+.card {
+  transition: all 0.3s;
+  border: none;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid #37cfda;
+}
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+footer {
+  background: #0f172a;
+  color: #94a3b8;
+}

@@ -24,65 +24,21 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
       rel="stylesheet"
     />
-
-    <style>
-      :root {
-        --km-primary: #f5e6be;
-        --km-primary-dark: #5c4d20;
-      }
-      body {
-        font-family: "Noto Sans Khmer", "Inter", sans-serif;
-        background: linear-gradient(135deg, #97793aa5 0%, #766d5c 100%);
-        min-height: 100vh;
-      }
-      .hero {
-        /* background: url("https://images.unsplash.com/photo-1558655146-9f40138ed1cb?w=1920&q=80")
-          center/cover no-repeat; */
-
-        color: white;
-        text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
-      }
-      .navbar-brand {
-        font-weight: 800;
-        font-size: 1.8rem;
-        background: linear-gradient(90deg, #f5e6be, #685417);
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
-      }
-      .nav-item .nav-link {
-      }
-      h1 {
-        background: linear-gradient(90deg, #f5e6be, #5c4d20);
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
-      }
-      .btn-primary {
-        background: var(--km-primary);
-        border: none;
-      }
-      .btn-primary:hover {
-        background: var(--km-primary-dark);
-      }
-      .card {
-        transition: all 0.3s;
-        border: none;
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-      }
-      .card:hover {
-        transform: translateY(-10px);
-        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
-      }
-      footer {
-        background: #0f172a;
-        color: #94a3b8;
-      }
-    </style>
+    <link rel="stylesheet" href="assets/css/main.css" />
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg">
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-lg">
       <div class="container">
-        <a class="navbar-brand" href="#">KhmerBootstrap</a>
+        <a class="navbar-brand" href="#">
+          <img
+            src="/assets/img/logo.jpg"
+            alt="Khmer UI"
+            height="40"
+            class="rounded-circle"
+          />
+          KhmerBootstrap
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -99,7 +55,7 @@
             </li>
             <li class="nav-item">
               <a
-                class="nav-link"
+                class="nav-link rounded-end"
                 href="https://github.com/yourname/khmer-master-ui"
                 target="_blank"
                 >GitHub</a
@@ -107,7 +63,7 @@
             </li>
             <li class="nav-item">
               <a
-                class="nav-link btn btn-primary text-white px-4 ms-3"
+                class="nav-link btn btn-primary text-white px-4 ms-3 rounded-end-pill"
                 href="#install"
                 >ចាប់ផ្តើម</a
               >
@@ -126,12 +82,14 @@
           គាំទ្រភាសាខ្មែរ 100% · ឆ្នាំ 2025
         </p>
         <div class="mt-4">
-          <a href="#install" class="btn btn-primary btn-lg px-5 py-3 me-3"
+          <a
+            href="#install"
+            class="btn btn-primary btn-lg px-5 me-3 rounded-pill"
             >ចាប់ផ្តើមប្រើប្រាស់</a
           >
           <a
-            href="https://github.com/yourname/khmer-master-ui"
-            class="btn btn-outline-light btn-lg px-5 py-3"
+            href="https://github.com/tolasan-dev/khmerboostrap"
+            class="btn btn-outline-light btn-lg px-5 rounded-pill"
           >
             <i class="bi bi-github"></i> GitHub
           </a>
@@ -187,21 +145,21 @@
         <h2 class="text-center mb-5">មុខងារពិសេស</h2>
         <div class="row g-4">
           <div class="col-md-4">
-            <div class="text-center">
+            <div class="text-center card p-3">
               <i class="bi bi-translate display-1 text-primary"></i>
               <h4 class="mt-3">គាំទ្រភាសាខ្មែរ 100%</h4>
               <p>អក្សរតូចធំ សញ្ញា និងការបែងចែកត្រឹមត្រូវទាំងអស់</p>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="text-center">
+            <div class="text-center card p-3">
               <i class="bi bi-moon-stars-fill display-1 text-primary"></i>
               <h4 class="mt-3">Dark Mode ដោយស្វ័យប្រវត្តិ</h4>
               <p>គាំទ្ររបៀបងងឹត / ភ្លឺដោយស្វ័យប្រវត្តិ</p>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="text-center">
+            <div class="text-center card p-3">
               <i class="bi bi-lightning-charge-fill display-1 text-primary"></i>
               <h4 class="mt-3">លឿន & ស្រាល</h4>
               <p>តែ 38KB (minified + gzipped)</p>
